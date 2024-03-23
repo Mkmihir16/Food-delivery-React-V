@@ -1,0 +1,23 @@
+@media  screen and (max-width:800px)  {
+    .Navbar{
+        height:10vh;
+       width: 100vw;
+       padding: 0;
+       margin: 0;
+       justify-content: space-between;
+    
+    }
+    .logo-navbar img{
+        height: 3vh;
+        width: 25vw;
+    }
+    .Navbar ul{
+        display: none;
+    }
+    .searchicon{
+        padding-right: 1rem;
+    }
+    .navbar-bag{
+        padding-right: 1rem;
+    }
+}

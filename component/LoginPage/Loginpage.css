@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-login-page{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    padding-top: 5rem;
+    margin: auto;
+    z-index: 99;
+    margin-top: 4rem;
+}
+.page-name-loginpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.login-page-container{
+    background-color:  white;
+    height: 75vh;
+    width: 45vw;
+    padding: 0 2rem;
+    border-radius: 15px;
+
+}
+.login-page-container h1{
+    text-align: center  ;
+}
+.hide-login-page{
+    display: none;
+}
+.accountinfo{
+    display: flex;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.createacc{
+    width:30%;
+    margin: 1rem 0;
+}
+.checkandpara{
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.checkandpara p{
+    padding-left: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.page-name-loginpage img:hover{
+    cursor: pointer;
+}
+form input{
+    width: 80%;
+    padding: 1rem 1rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    border:2px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    border:2px solid #E76D16;
+    /* outline:2px solid #E76D16; */
+}
+.accountinfo{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 18px;
+}
+.loginpage-info{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.page-name-loginpage{
+    text-align: center;
+    margin: 1.3rem;
+}
+.page-name-loginpage h1{
+    text-align: center;
+    position: relative;
+    left: 35%;
+    color: #E76D16;
+}
+.createacc{
+    height: 3rem;
+    width: 20rem;
+    padding: 0rem 0rem;
+    border-radius: 5px;
+    background-color: #E76D16;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sub-cart-container{
+    margin: 0 0.5rem;
+    text-align: center;
+    background-color:#E76D16;
+    display: grid;
+    color: white;
+    padding: 1rem 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr 0.5fr;
+    margin-bottom: 2rem;
+}
+.cart1-listitem{
+    text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+  align-items: center;
+  justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr 0.5fr;
+    /* margin: 0 0.5rem; */
+    background-color: rgb(235, 235, 235);
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.cart1-listitem img{
+    height: 7.5rem;
+    width: 11rem;
+}
+.cart-container{
+    margin-top: 3rem;
+}
+.remove-cart11-item{
+    background-color: #E76D16;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart11-order-summary {
+   
+	width:100%;
+	/* border:1px solid #EEEEEE; */
+     display: flex;
+    justify-content:space-around;
+    /* background-color: red; */
+    margin: 5rem 0;
+}
+.table-content{
+width: 40%;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	/* padding:(12px * 15) 0; */
+    padding: 1rem;
+	
+	&:nth-of-type(odd) {
+		background:#EEEEEE;
+	}
+}
+
+.table-data{
+	flex: 1 1 20%;
+	text-align:center;
+}
+.promo-code-cart11{
+    /* background-color: red; */
+    display: inline;
+    position: relative;
+    /* right: 10%; */
+}
+.sub-cart11-input {
+    /* margin-top: 0.5rem; */
+    padding-top: 1rem;
+}
+.sub-cart11-input input{
+    background-color: #EEEEEE;
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    font-size: 16px;
+}
+.sub-cart11-input button{
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1.5rem;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mobilemain{
+    color: black;
+    height: 20vh;
+margin-bottom: 1rem;
+}
+.mobilemain h1{
+
+    text-align: center;
+    padding: 0.3rem 0;
+}
+.mobilemain h2{
+    text-align: center;
+    padding-bottom: 0.4rem;
+}
+.mobile-imgs{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

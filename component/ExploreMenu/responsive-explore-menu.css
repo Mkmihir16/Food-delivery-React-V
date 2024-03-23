@@ -1,0 +1,9 @@
+@media  screen and (max-width:800px)  {
+    .Explore-menu h1{
+        font-size: 5vw;
+    }
+    .content-exploremenu{
+        overflow-x: scroll;
+        /* display: block; */
+    }
+}
