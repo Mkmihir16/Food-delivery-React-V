@@ -1,0 +1,13 @@
+@media screen  and (max-width:800px){
+    .Fooddisplay-main-container{
+        margin-top: 2rem;
+    }
+    .Fooddisplay-main-container h1{
+        font-size: 5vw;
+        font-weight: 600;
+        
+    }
+    .Food-display-content{
+        margin-top: 1rem;
+    }
+}

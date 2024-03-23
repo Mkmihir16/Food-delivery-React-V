@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { assets } from '../../src/assets/assets'
 import "./FoodItem.css"
 import star from "../../src/assets/rating_starts.png"
+import "./Responsive-food-item.css"
 import { Contexapi } from '../../Context/Contexapi'
 export default function FoodItem({ id, name, img, price, des }) {
     const { calitem, additemcart, removeitemcart } = useContext(Contexapi)

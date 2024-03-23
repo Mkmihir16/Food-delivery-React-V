@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import "./Fooddisplay.css"
 import FoodItem from '../FoodItem/FoodItem'
 import { Contexapi } from '../../Context/Contexapi'
+import "./Responsive-food-display.css"
 function Fooddisplay({category}) {
     const {food_list}=useContext(Contexapi)
   return (
