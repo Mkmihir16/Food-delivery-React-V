@@ -1,17 +1,24 @@
 @media  screen and (max-width:800px)  {
 .header{
-    margin: 1rem 0;
+    margin: 0rem 0;
     height: 20vh;
     width: 100vw;
     color: black;
+    margin-bottom: 1rem;
 }
 .sub-header{
    
     color:white
 }
+.sub-header h1{
+    font-size: 4vw;
+}
+.sub-header p{
+    font-size: 2.2vw;
+}
 .sub-header button{
     margin-top: 0.1rem;
     border-radius: 2px;
-    padding: 0.3vh 0.8vw;
+    padding: 0.5vh 2vw;
 }
 }

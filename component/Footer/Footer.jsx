@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import "./responsive-footer.css"
 import { assets } from '../../src/assets/assets'
 export default function Footer() {
     return (

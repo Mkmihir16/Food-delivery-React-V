@@ -1,0 +1,21 @@
+@media screen  and (max-width:800px){
+    .footer{
+            height: auto;
+            width: 100vw;
+            flex-direction: column;
+    }
+    .left-sub-footer p{
+        display: none;
+    }
+    .left-footer{
+        padding-top: 2rem;
+        width:100%
+    }
+    .center-footer{
+        display: none;
+    }
+    .right-footer{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+}
