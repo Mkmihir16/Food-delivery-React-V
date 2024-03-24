@@ -1,0 +1,40 @@
+@media screen and (max-width:800px) {
+    .main-login-page{
+        width: 100vw;
+        
+    }
+    .login-page-container{
+        width: 90%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .page-name-loginpage h1{
+        text-align: center;
+    }
+    .page-name-loginpage{
+        margin: 0;
+    }
+    .page-name-loginpage img{
+        padding:1rem;
+    }
+    .checkandpara{
+       width: 100%;
+    }
+    .checkandpara p{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .checkandpara input{
+       position: relative;
+       left: 10%;
+       height: 2rem;
+       width: 1.3rem;
+    }
+    .createacc{
+        
+        height: 5vh;
+        width: 70vw;
+    }
+}

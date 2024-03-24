@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Loginpage.css";
 import { assets } from '../../src/assets/assets';
-
+import "./Responsive-login-page.css"
 function Loginpage({ setLogin }) {
   const [currentState, setcurrentState] = useState("Sign Up")
   function sethandlerfun() {
@@ -24,7 +24,10 @@ function Loginpage({ setLogin }) {
 
         </form>
         <div className="checkandpara">
+          <div className="sub-checkandpara">
           <input type="checkbox" /><p>Accept all the terms and conditions.</p>
+          </div>
+         
         </div>
 
         <div className="accountinfo">
