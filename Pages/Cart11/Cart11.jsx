@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import { Contexapi } from '../../Context/Contexapi'
 import "./Cart11.css"
+import "./Responsive-cart.css"
+import icon from "./cross-icon.svg"
 import { Navigate, useNavigate } from 'react-router-dom';
 export default function Cart11() {
   const { food_list, calitem, removeitemcart ,gettotalval} = useContext(Contexapi)
@@ -27,7 +29,8 @@ export default function Cart11() {
                 <p>{calitem[item._id]}</p>
                 <p >{item.price * calitem[item._id]}</p>
                 {/* <p onClick={()=>removeitemcart(item._id)}>x</p> */}
-                <button onClick={() => removeitemcart(item._id)} className='remove-cart11-item'> Remove</button>
+                {/* <button onClick={() => removeitemcart(item._id)} className='remove-cart11-item'> Remove</button> */}
+                <img onClick={() => removeitemcart(item._id)} className='remove-cart11-item' src={icon} alt="" />
               </div>)
 
           }
@@ -58,7 +61,8 @@ export default function Cart11() {
           </div>
         </div>
       </div>
-          <button className='order-proceed' onClick={()=>navigate('/order')}>Proceed Order</button>
+      
+          <button className='order-proceed-1234' onClick={()=>navigate('/order')}>Proceed Order</button>
       
       </>
   )

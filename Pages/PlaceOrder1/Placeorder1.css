@@ -9,13 +9,13 @@
     justify-content: space-between;
     display: flex;
     align-items: center;margin: 3rem 0;
+    flex-wrap: wrap;
     
 }
 .left-main-placeorder1{
     width:50%;
-  
     font-size: 18px;
-   margin-left: 3rem;
+     margin-left: 3rem;
 }
 .sub-left-placeorder1{
     display: flex;

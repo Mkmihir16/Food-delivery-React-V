@@ -40,10 +40,10 @@
     margin-top: 3rem;
 }
 .remove-cart11-item{
-    background-color: #E76D16;
+    /* background-color: #E76D16;
     color: white;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 600; */
     padding: 0.5rem 0.8rem;
     border-radius: 10px;
     cursor: pointer;
@@ -51,10 +51,8 @@
 .cart11-order-summary {
    
 	width:100%;
-	/* border:1px solid #EEEEEE; */
      display: flex;
     justify-content:space-around;
-    /* background-color: red; */
     margin: 5rem 0;
 }
 .table-content{
@@ -97,5 +95,18 @@ width: 40%;
     background-color: black;
     padding: 0.5rem 1.5rem;
     font-size: 16px;
+    cursor: pointer;
+}
+.order-proceed-1234{
+    padding: 1rem 2rem;
+    margin: auto;
+    font-size: 18px;
+    background-color: #E76D16;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+    margin-bottom: 2rem;
     cursor: pointer;
 }

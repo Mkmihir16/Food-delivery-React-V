@@ -19,22 +19,21 @@
         padding:1rem;
     }
     .checkandpara{
-       width: 100%;
+       width: 80vw;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        /* flex-direction: co; */
+        margin: 0 2rem;
     }
-    .checkandpara p{
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-    .checkandpara input{
-       position: relative;
-       left: 10%;
-       height: 2rem;
-       width: 1.3rem;
-    }
-    .createacc{
-        
+.checkandpara p,.sub-checkandpara-para {
+    padding: 0%;
+}
+    .createacc{ 
         height: 5vh;
         width: 70vw;
+    }
+    .sub-checkandpara{
+        padding-right: 1rem;
     }
 }

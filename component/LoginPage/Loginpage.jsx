@@ -25,21 +25,20 @@ function Loginpage({ setLogin }) {
         </form>
         <div className="checkandpara">
           <div className="sub-checkandpara">
-          <input type="checkbox" /><p>Accept all the terms and conditions.</p>
-          </div>
-         
+            <input type="checkbox" /></div>
+          <div className="sub-checkandpara-para"><p>Accept all the terms and conditions.</p></div>
         </div>
 
         <div className="accountinfo">
           {currentState === "Sign Up" ? <><p>Already Have Account? </p>
-            <p className='loginpage-info' onClick={() => sethandlerfun()}>Log In</p></>:
+            <p className='loginpage-info' onClick={() => sethandlerfun()}>Log In</p></> :
             <>
-            <p>Not have an account? </p>
-            <p className='loginpage-info' onClick={() => sethandlerfun()}>Sign Up</p></>}
-          </div>
+              <p>Not have an account? </p>
+              <p className='loginpage-info' onClick={() => sethandlerfun()}>Sign Up</p></>}
         </div>
       </div>
-      );
+    </div>
+  );
 }
 
-      export default Loginpage;
+export default Loginpage;

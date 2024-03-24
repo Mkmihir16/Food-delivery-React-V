@@ -1,0 +1,33 @@
+@media screen and (max-width:800px) {
+    .main-placeorder1{
+        justify-content: center;
+        /* margin: 0; */
+    }
+    .left-main-placeorder1{
+        width:100%;
+        font-size: 18px;
+        margin: 0;
+        margin-left: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .left-main-placeorder1 h1{
+        font-size: 24px;
+    }
+    .sub-left-placeorder{
+        display: flex;
+        flex-direction: row;
+    }
+    .right-main-placeorder1 h1{
+        font-size: 24px;
+    }
+    .table-content-new{
+        width:80%;
+    }
+    .right-main-placeorder1{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

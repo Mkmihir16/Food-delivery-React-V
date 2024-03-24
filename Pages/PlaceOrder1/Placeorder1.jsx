@@ -1,49 +1,10 @@
 import React, { useContext } from 'react'
 import "./Placeorder1.css"
 import { Contexapi } from '../../Context/Contexapi'
+import "./Responsive-Placeorder1.css"
 export default function Placeorder1() {
   const { gettotalval } = useContext(Contexapi)
   return (
-    // <div className='placeorder1-main-container'>
-    //   <div className="left-placeorder1-container">
-    //       <div className="left-placeorder-input">
-    //         <input type="text" placeholder='First Name' name="" id="" />
-    //         <input type="text" placeholder='Last Name' name="" id="" />
-    //       </div>
-    //       <div className="left-placeorder-input1">
-
-    //       <input type="email" name="" id="" placeholder='Email'/>
-    //       <input type="text" name="" id="" placeholder='Street'/>
-    //       </div>
-    //       <div className="left-placeorder-input">
-    //         <input type="text" placeholder='City' name="" id="" />
-    //         <input type="text" placeholder='State' name="" id="" />
-    //       </div>
-    //       <div className="left-placeorder-input">
-    //         <input type="text" placeholder='Zipcode' name="" id="" />
-    //         <input type="text" placeholder='Country' name="" id="" />
-    //       </div>
-
-    //       <input type="text" name="" id="" placeholder='Phone'/>
-    //   </div>
-    //   <div className="right-placeorder1-container">
-    //   <div className="table-content">
-    //       <div className="table-row">
-    //         <div className="table-data">Subtotal</div>
-    //         <div className="table-data">{gettotalval()}</div>
-    //       </div>
-    //       <div className="table-row">
-    //         <div className="table-data">Delivery Charges</div>
-    //         <div className="table-data">{2}</div>
-    //       </div>
-    //       <div className="table-row">
-    //         <div className="table-data">Total</div>
-    //         <div className="table-data">{gettotalval() +2}</div>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    // </div>
     <div className="main-placeorder1">
       <div className="left-main-placeorder1">
         <h1>Delivery Information</h1>
@@ -87,7 +48,7 @@ export default function Placeorder1() {
             <div className="table-data-new">Total</div>
             <div className="table-data-new">{gettotalval()===0?0:gettotalval() + 2}</div>
           </div>
-        <button className='order-proceed order-new-proceed' onClick={()=>navigate('/order')}>Proceed Order</button>
+        <button className='order-proceed order-new-proceed order-proceed-1234' onClick={()=>navigate('/order')}>Proceed Order</button>
         </div>
       </div>
     </div>

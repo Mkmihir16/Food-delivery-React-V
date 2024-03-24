@@ -1,0 +1,36 @@
+@media screen and (max-width:800px) {
+    .cart11-order-summary {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 2fr 1.5fr 1fr 1fr 0.5fr 0.5fr;
+        margin: 0;
+        /* margin-bottom: 3rem; */
+    }
+
+    .table-content {
+        width: 80%;
+    }
+
+    .promo-code-cart11 {
+        margin: 2rem 2rem;
+    }
+
+    .sub-cart11-input button {
+        margin-top: 1rem;
+    }
+
+    .order-proceed-1234{
+        display: flex;
+        position: static;
+        /* left: 50%; */
+        /* margin: auto; */
+    }
+    .sub-cart-container{
+        font-size: 14px;
+        gap: 10px;
+    }
+    .cart1-listitem img{
+        height: 3rem;
+        width: 4rem;
+    }
+}
