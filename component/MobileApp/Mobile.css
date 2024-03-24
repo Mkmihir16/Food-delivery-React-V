@@ -5,8 +5,8 @@
 }
 .mobilemain{
     color: black;
-    height: 20vh;
-margin-bottom: 1rem;
+    
+    margin-bottom: 1rem;
 }
 .mobilemain h1{
 
@@ -21,4 +21,5 @@ margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    flex-wrap: wrap;
 }
