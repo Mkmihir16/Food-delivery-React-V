@@ -2,8 +2,20 @@
     .Explore-menu h1{
         font-size: 5vw;
     }
+    /* ::-webkit-scrollbar {
+        width: 1px;
+        background: #8e4040;
+      } */
+      ::-webkit-scrollbar{
+        height: 5px;
+     }
+      ::-webkit-scrollbar-thumb{
+        background-color: orange;
+        border-radius: 5px;
+      }
     .content-exploremenu{
         overflow-x: scroll;
+       
         /* display: block; */
     }
     .content-exploremenu p{
